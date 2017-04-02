@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  navs = [
+    {url: '', label   : 'Bootstrap'},
+    {url: 'ngbootstrap', label : 'Ng Bootstrap'},
+    {url: 'ngflexlayout', label: 'Ng FlexLayout'},
+    {url: 'ngmaterial', label  : 'Ng Material'},
+    {url: 'tachyons', label    : 'Tachyons'}
+ ];
 }

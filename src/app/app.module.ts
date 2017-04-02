@@ -16,7 +16,6 @@ import appRoutesModule from './app.routes';
     HttpModule,
     appRoutesModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

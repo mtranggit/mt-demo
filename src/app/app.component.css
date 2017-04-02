@@ -1,0 +1,15 @@
+nav a {
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+nav a.active {
+    font-weight: 600;
+}
+
+nav a:not(:first-of-type):before {
+    content: "|";
+    padding-right: 10px;
+}
